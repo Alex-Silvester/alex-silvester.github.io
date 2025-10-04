@@ -1,0 +1,32 @@
+﻿
+h1.head {
+    color: #2a0045;
+    font-size: 150%;
+    text-align: center;
+}
+
+p.sub-head {
+    font-size: 150%;
+    color: #2a0045;
+    text-align: center;
+}
+
+div.intro-text {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+p.main-body {
+    color: #2a0045;
+    text-align: center;
+}
+
+.img-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+body {
+    background-color: BlanchedAlmond;
+}
