@@ -26,14 +26,20 @@
 
 <body>
 
-    <h1 class="head">Alex Silvester: Game Developer</h1>
+    <div class="header_bar">
+        <button type="button" class="header_switch" onclick="darkMode()">
+            <img src="images/crescent_moon_trans.png" style="width:100%;height:100%;">
+        </button>
+    </div>
 
-    <div class="intro-text">
-        <p id="intro" style="text-align : center;"></p>
+    <h1 class="header">Alex Silvester: Game Developer</h1>
+
+    <div class="centered">
+        <p id="intro"></p>
     </div>
 
 
-    <div style="position : fixed;">
+    <div style="position : fixed; z-index : 10;">
         <div>
             <a href="https://www.linkedin.com/in/-alex-silvester">
                 <img class="img-link" src="images/linkedin.png" alt="LinkedIn Logo">
@@ -47,8 +53,27 @@
         </div> 
     </div>
 
+
     <div style="height : 2000px;"></div>
 
 </body>
+
+<script>
+    function darkMode() {
+
+        let col = '#010120';
+
+        if (document.body.style.backgroundColor == 'black')
+        {
+            document.body.style.backgroundColor = 'blanchedalmond';
+            document.body.style.color = 'black';
+        }
+        else
+        {
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'lightgrey';
+        }
+    }
+</script>
 
 </html>

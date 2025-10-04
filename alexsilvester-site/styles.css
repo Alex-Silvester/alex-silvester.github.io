@@ -1,32 +1,46 @@
 ﻿
-h1.head {
-    color: #2a0045;
-    font-size: 150%;
-    text-align: center;
+h1.header{
+    text-align : center;
 }
 
-p.sub-head {
-    font-size: 150%;
-    color: #2a0045;
-    text-align: center;
-}
-
-div.intro-text {
+div.centered {
     padding-left: 25%;
     padding-right: 25%;
+    text-align : center;
 }
 
-p.main-body {
-    color: #2a0045;
-    text-align: center;
+div.header_bar{
+    position : fixed;
+    display : inline-block;
+    background-color : dimgrey;
+    width : 100%;
+    height : 50px;
+    top : 0px;
 }
 
-.img-link {
+img.img-link {
     width: 50px;
     height: 50px;
     border-radius: 25px;
+    z-index: 100;
+}
+
+button.header_switch {
+    background-color: transparent;
+    border-color : transparent;
+    color : blue;
+    transition-duration : 0.4s;
+    height : inherit;
+    aspect-ratio : 1/1;
+}
+
+button.header_switch:hover{
+    background-color : darkslategrey;
 }
 
 body {
     background-color: BlanchedAlmond;
+    transition: 0.4s;
+    margin: 0px;
+    margin-top : 50px;
 }
