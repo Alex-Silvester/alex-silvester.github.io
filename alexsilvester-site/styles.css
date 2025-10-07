@@ -38,9 +38,51 @@ button.header_switch:hover{
     background-color : darkslategrey;
 }
 
+.darkmode {
+    background-color: #010120;
+    color : white;
+}
+
+.separator {
+    display: block;
+    height: 2px;
+    border: 0;
+    padding: 0;
+    background-color: black;
+    transition : 0.4s;
+}
+
+.separator_darkmode{
+    display : block;
+    background-color : white;
+    color : white;
+}
+
+.block{
+    justify-self:center;
+    display:flex;
+    width:70%;
+    aspect-ratio:4/1;
+    background-color:transparent;
+    margin:20px;
+    border:1px solid black;
+    transition : 0.4s;
+}
+
+.block_darkmode{
+    border-color : white;
+}
+
+div.block_content{
+    place-content:center;
+    text-align:center;
+    width:50%;
+    height:100%;
+}
+
 body {
-    background-color: BlanchedAlmond;
+    background-color: blanchedalmond;
     transition: 0.4s;
     margin: 0px;
-    margin-top : 50px;
+    margin-top: 50px;
 }
