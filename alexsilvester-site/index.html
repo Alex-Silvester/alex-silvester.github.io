@@ -12,8 +12,20 @@
     <script>
         $(document).ready(function () {
 
-            $.get("intro_text.txt", function (data) {
-                $("p#intro").html(data);
+            $.get("Text/intro_text.txt", function (data) {
+                $("p#intro").text(data.replace(
+                    "<exp>", (new Date().getFullYear()-2018).toString()));
+            });
+
+        }
+        );
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $.get("Text/Renderer_text.txt", function (data) {
+                $("p#RendererText").text(data);
             });
 
         }
@@ -64,13 +76,13 @@
     </div>
 
     <div class="block">
-        <div class="block_content">
-            <h3>Header</h3>
+        <div class="block_text">
+            <h3>3D Renderer</h3>
             <hr class="separator" style="width:70%;"/>
-            <p>t</p>
+            <p id="RendererText"></p>
         </div>
-        <div class="block_content">
-            <img src="images/crescent_moon.jpg">
+        <div class="block_image">
+            <img src="images/Renderer3D.png">
         </div>
     </div>
 

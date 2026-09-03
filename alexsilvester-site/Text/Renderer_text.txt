@@ -1,0 +1,3 @@
+Using OpenGL and AssImp I have created a basic renderer with custom shapes and model importing.
+
+The image (right) is showing the testing of rotations, transparency, textures, skyboxes, and model loading

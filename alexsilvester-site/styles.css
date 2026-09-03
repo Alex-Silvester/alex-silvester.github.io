@@ -7,7 +7,7 @@ div.centered {
     display : inline-flex;
     justify-content : center;
     text-align : center;
-    width : 100%
+    width : 100%;
 }
 
 div.header_bar{
@@ -72,11 +72,20 @@ button.header_switch:hover{
     border-color : white;
 }
 
-div.block_content{
+div.block_text{
     justify-self : center;
     place-content:center;
     text-align:center;
+    overflow-y: scroll;
+    width:50%;
+    height:auto;
     
+}
+
+div.block_image{
+    justify-self : center;
+    place-content:center;
+    text-align:center;
     width:50%;
     height:auto;
 }
@@ -91,4 +100,9 @@ body {
 img{
     max-height:100%; 
     max-width:100%;
+}
+
+p{
+    word-wrap: break-word;
+    white-space: pre-line;
 }
