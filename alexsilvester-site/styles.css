@@ -4,9 +4,10 @@ h1.header{
 }
 
 div.centered {
-    padding-left: 25%;
-    padding-right: 25%;
+    display : inline-flex;
+    justify-content : center;
     text-align : center;
+    width : 100%
 }
 
 div.header_bar{
@@ -44,12 +45,11 @@ button.header_switch:hover{
 }
 
 .separator {
-    display: block;
+    justify-self : center;
     height: 2px;
-    border: 0;
-    padding: 0;
     background-color: black;
     transition : 0.4s;
+    display : inline-flex
 }
 
 .separator_darkmode{
@@ -60,12 +60,12 @@ button.header_switch:hover{
 .block{
     justify-self:center;
     display:flex;
-    width:70%;
     aspect-ratio:4/1;
     background-color:transparent;
     margin:20px;
     border:1px solid black;
     transition : 0.4s;
+    width : 80%;
 }
 
 .block_darkmode{
