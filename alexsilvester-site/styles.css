@@ -30,7 +30,6 @@ button.header_switch {
     background-color: transparent;
     border-color : transparent;
     color : black;
-    transition-duration : 0.4s;
     height : inherit;
     aspect-ratio : 1/1;
     display: inline-block;
@@ -50,7 +49,6 @@ button.header_switch:hover{
     justify-self : center;
     height: 2px;
     background-color: black;
-    transition : 0.4s;
     display : inline-flex
 }
 
@@ -66,7 +64,6 @@ button.header_switch:hover{
     background-color:transparent;
     margin:20px;
     border:1px solid black;
-    transition : 0.4s;
     width : 80%;
 }
 
@@ -94,7 +91,6 @@ div.block_image{
 
 body {
     background-color: blanchedalmond;
-    transition: 0.4s;
     margin: 0px;
     margin-top: 50px;
 }

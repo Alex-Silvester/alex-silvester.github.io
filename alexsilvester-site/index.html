@@ -43,27 +43,7 @@
         ); 
     </script>
 
-    <script>
-        $(document).ready(function () {
-            $('#darkmode_button').click(function () {
-                document.body.classList.toggle('darkmode');
-
-                if ($(".separator").hasClass("separator_darkmode")) {
-                    $(".separator").removeClass("separator_darkmode");
-                }
-                else {
-                    $(".separator").addClass("separator_darkmode");
-                }
-
-                if ($(".block").hasClass("block_darkmode")) {
-                    $(".block").removeClass("block_darkmode");
-                }
-                else {
-                    $(".block").addClass("block_darkmode");
-                }
-            });
-        });
-    </script>
+    <script src="scripts/darkmode_button.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -72,7 +52,6 @@
             });
         });
     </script>
-
 
 </head>
 
@@ -138,6 +117,8 @@
             </a>
         </div> 
     </div>
+
+    <script src="scripts/persistent_darkmode.js"></script>
 
 </body>
 
