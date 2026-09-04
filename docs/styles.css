@@ -59,6 +59,7 @@ button.header_switch:hover{
 
 .block{
     justify-self:center;
+    align-self: center;
     display:flex;
     aspect-ratio:4/1;
     background-color:transparent;
