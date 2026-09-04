@@ -13,8 +13,7 @@
         $(document).ready(function () {
 
             $.get("Text/intro_text.txt", function (data) {
-                $("p#intro").text(data.replace(
-                    "<exp>", (new Date().getFullYear()-2018).toString()));
+                $("p#intro").text(data);
             });
 
         }

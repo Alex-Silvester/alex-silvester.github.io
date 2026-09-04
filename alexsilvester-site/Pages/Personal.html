@@ -18,6 +18,18 @@
             });
         });
     </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $.get("../Text/about_me.txt", function (data) {
+                $("p#aboutMeText").text(data.replace(
+                    "<exp>", (new Date().getFullYear()-2018).toString()));
+            });
+
+        }
+        );
+    </script>
 </head>
 
 <body>
@@ -30,6 +42,21 @@
             <div>Home</div>
         </button>
     </div>
+
+    <div style="display: flex;">
+        <div style="width:50%">
+            <h2 style="justify-self: center;">About me</h2>
+            <div class="centered">
+                <hr class="separator", style="width:70%"/>
+            </div>
+            <p style="justify-self: center;text-align: center; max-width: 500px;" id="aboutMeText"></p>
+        </div>
+        <div style="width:50%; max-height: 500px; aspect-ratio: 3/4;float:right;">
+            <img style="display: block; margin-left: auto; margin-right: auto; min-width:50%" src="../images/pre-graduation-photo.jpg"/>
+        </div>
+    </div>
+
+    <div class="block"></div>
 
      <script src="../scripts/persistent_darkmode.js"></script>
 

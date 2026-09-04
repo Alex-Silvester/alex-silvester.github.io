@@ -1,7 +1,3 @@
-﻿I'm Alex, a game developer with a degree in Games Technology at The University of the West of England (UWE) with a focus in C++ and have been programming for around <exp> years.
-
-I have skills in various areas, such as C++, Game Engines (Unity and unreal), basic web design using HTML and CSS (see this website), Python, JavaScript (using p5.js), and have an interest in learning more about low level languages such as C and Assembly.
-
-This website is about showing off the projects i have created and talk about the things I have learned from them.. Whenever I have a new project in mind, it often include creating something I haven't yet tried and want to create from scratch. I like to challenge myself with my projects and enjoy the problem solving aspects of them.
+﻿This website is about showing off the projects i have created and talk about the things I have learned from them.. Whenever I have a new project in mind, it often include creating something I haven't yet tried and want to create from scratch. I like to challenge myself with my projects and enjoy the problem solving aspects of them.
 
 You can check out my work, and more about me through the links on the left or directly access the projects through their images.
