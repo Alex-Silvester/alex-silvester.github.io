@@ -5,13 +5,52 @@
     <meta charset="utf-8"/>
     <title>About me</title>
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#darkmode_button').click(function () {
+                document.body.classList.toggle('darkmode');
+
+                if ($(".separator").hasClass("separator_darkmode")) {
+                    $(".separator").removeClass("separator_darkmode");
+                }
+                else {
+                    $(".separator").addClass("separator_darkmode");
+                }
+
+                if ($(".block").hasClass("block_darkmode")) {
+                    $(".block").removeClass("block_darkmode");
+                }
+                else {
+                    $(".block").addClass("block_darkmode");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#home_button').click(function () {
+                window.location.href="../index.html"
+            });
+        });
+    </script>
 </head>
 
 <body>
-    
+
+    <div class="header_bar">
+        <button id="darkmode_button" type="button" class="header_switch">
+            <img src="../images/crescent_moon_trans.png" style="width:100%;height:100%;">
+        </button>
+        <button id="home_button" type="button" class="header_switch" style="top:0px;right: 0px;">
+            <div>Home</div>
+        </button>
+    </div>
+
 </body>
 
 </html>
