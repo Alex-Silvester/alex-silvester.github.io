@@ -40,7 +40,7 @@
             });
 
         }
-        );
+        ); 
     </script>
 
     <script>
@@ -65,14 +65,25 @@
         });
     </script>
 
+    <script>
+        $(document).ready(function () {
+            $('#about_me_button').click(function () {
+                window.location.href="Pages/Personal.html"
+            });
+        });
+    </script>
+
 
 </head>
 
 <body>
 
     <div class="header_bar">
-        <button id="darkmode_button" type="button" class="header_switch" onclick="darkMode()">
+        <button id="darkmode_button" type="button" class="header_switch">
             <img src="images/crescent_moon_trans.png" style="width:100%;height:100%;">
+        </button>
+        <button id="about_me_button" type="button" class="header_switch" style="top:0px;right: 0px;">
+            <div>About me</div>
         </button>
     </div>
 

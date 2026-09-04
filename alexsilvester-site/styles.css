@@ -29,10 +29,12 @@ img.img-link {
 button.header_switch {
     background-color: transparent;
     border-color : transparent;
-    color : blue;
+    color : black;
     transition-duration : 0.4s;
     height : inherit;
     aspect-ratio : 1/1;
+    display: inline-block;
+    position: absolute
 }
 
 button.header_switch:hover{
