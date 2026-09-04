@@ -1,0 +1,7 @@
+Safety optional is a game created in my 3rd year at UWE for our final group project with a team of ten developers as part of Runtime Error Studios over the course of the year.
+
+The idea behind the game is four players are controlling forklifts and bringing coloured crates to a collection area to gain points in a short time frame. The aim is to gain as many points as possible by being "unsafe" in the warehouse during your shift by drifting around and picking each other up to get crates worth higher points
+
+My place in the group was one of the main developers of the forklift functionality (drifting, player/crate interactions, controller functionality). I was also one of the go-to people in the group when people needed help merging their branches into the dev branch of the repository
+
+You can find this game on itch.io or build it youself with the source code.

@@ -34,6 +34,17 @@
 
     <script>
         $(document).ready(function () {
+
+            $.get("Text/SO_text.txt", function (data) {
+                $("p#SafetyOptionalText").text(data);
+            });
+
+        }
+        );
+    </script>
+
+    <script>
+        $(document).ready(function () {
             $('#darkmode_button').click(function () {
                 document.body.classList.toggle('darkmode');
 
@@ -82,12 +93,23 @@
             <p id="RendererText"></p>
         </div>
         <div class="block_image">
-            <img src="images/Renderer3D.png">
-        </div>
+            <a href="https://github.com/Alex-Silvester/3D-Rendering-Library">
+                <img src="images/Renderer3D.png">   
+            </a>
+        </div>  
     </div>
 
     <div class="block">
-
+        <div class="block_image">
+            <a href="https://github.com/Alex-Silvester/CGD-Project">
+                <img src="images/SafetyOptional.png">    
+            </a>
+        </div>
+        <div class="block_text">
+            <h3>Safety Optional</h3>
+            <hr class="separator" style="width:70%;"/>
+            <p id="SafetyOptionalText"></p>
+        </div>  
     </div>
 
 

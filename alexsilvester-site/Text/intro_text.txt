@@ -4,4 +4,4 @@ I have skills in various areas, such as C++, Game Engines (Unity and unreal), ba
 
 This website is about showing off the projects i have created and talk about the things I have learned from them.. Whenever I have a new project in mind, it often include creating something I haven't yet tried and want to create from scratch. I like to challenge myself with my projects and enjoy the problem solving aspects of them.
 
-You can check out my work, and more about me through the links on the left.
+You can check out my work, and more about me through the links on the left or directly access the projects through their images.

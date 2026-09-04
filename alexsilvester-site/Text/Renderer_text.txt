@@ -1,3 +1,7 @@
 Using OpenGL and AssImp I have created a basic renderer with custom shapes and model importing.
 
-The image (right) is showing the testing of rotations, transparency, textures, skyboxes, and model loading
+The image (right) is showing the testing of rotations, transparency, textures, skyboxes, and model loading.
+
+This project also includes basic functionality for 2D rendering, however, since this is not one of the main features of the program, it is not fully fleshed out yet. The current plan for being able to use both the 2D and 3D modes is to create two classes, Game2D and Game3D, that can be inherited from to implement the basic functionality for each type of scene.
+
+When creating a game (using Game2D, Game3D, or a custom implementation), each class inherits from the Game class to give a window to render to. This class also includes a default rendering function that can render objects created from an object factory created by the user, however there are pre- and post- render functions that can be overridden and used to render custom objects either before or after the default render.
